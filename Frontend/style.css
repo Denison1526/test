@@ -1,0 +1,32 @@
+.sort__btn {
+background-image: url(./arrow-down.svg);
+background-repeat: no-repeat;
+width: 12px;
+height: 6px;
+margin-left: 10px;
+transition: all .3s ease-in-out;
+}
+
+.btn-reset {
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.span {
+    display: none;
+}
+
+.invisible {
+    display: none;
+}
+
+#flex {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.color {
+    color: red;
+}
